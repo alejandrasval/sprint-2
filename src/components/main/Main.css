@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+.inputSearch:focus {
+    outline: none;
+}
